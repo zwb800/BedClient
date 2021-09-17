@@ -70,5 +70,5 @@ void loop() {
   Udp.endPacket();
   delay(100);                       // wait for a second
   digitalWrite(LED_BUILTIN, HIGH);    // turn the LED off by making the voltage LOW
-  delay(1000);                       // wait for a second
+  delay(900);                       // wait for a second
 }
